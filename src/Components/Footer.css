@@ -1,0 +1,30 @@
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  color: #00bfff;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
